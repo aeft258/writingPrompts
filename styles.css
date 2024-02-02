@@ -1,0 +1,31 @@
+body {
+    color: #20201F;
+    background-color: #F5f3ef;
+}
+
+.hero-image {
+    background-image: url("assets/notebook.jpg");
+    height: 400px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-item {
+    list-style-type: none;
+    padding: 0px 40px;
+}
+
+.about, .nav-bar {
+    padding-left: 15px;
+}
