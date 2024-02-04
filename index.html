@@ -7,23 +7,32 @@
     </head>
 
     <body>
-        <div class="nav-bar">
+    <header>
+        <div class="toggle-btn" onclick="myFunction();">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="logo">
             <h1>write with purpose</h1>
+        </div>
+
+        <nav id="nav">
             <ul class="nav-links">
-                <li class="nav-item">about</li>
-                <li class="nav-item">prompts</li>
-                <li class="nav-item">timer</li>
-                <li class="nav-item">newsletter</li>
+                <li class="nav-item"><a href="#">about</a></li>
+                <li class="nav-item"><a href="#">prompts</a></li>
+                <li class="nav-item"><a href="#">timer</a></li>
+                <li class="nav-item"><a href="#">newsletter</a></li>
             </ul>
-        </div>
-        <div class="hero-image">
-            
-        </div>
+        </nav>
+    </header>
+        
         <div class="about">
-            <h2>writing prompts & inspiration</h2>
+            <h1 id="about-heading">writing prompts & inspiration</h1>
         </div>
         <div class="prompt">
-
+            <h2 id="prompt-heading">writing prompt generator</h2>
         </div>
         <div class="timer">
 
@@ -31,9 +40,9 @@
         <div class="newletter">
 
         </div>
-        <div class="footer">
+    <div class="footer">
 
-        </div>
+    </div>
     </body>
 
 </html>
